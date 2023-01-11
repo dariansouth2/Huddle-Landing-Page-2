@@ -1,0 +1,133 @@
+:root{
+    --pink: hsl(322, 100%, 66%);
+    --very-pale-cyan: hsl(193, 100%, 96%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+}
+*{
+    margin: 0;
+}
+.hero{
+    background-color: rgb(231, 241, 245);
+    background-image: url(images/bg-hero-desktop.svg) ;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+nav button{
+    background-color: white;
+    border: none;
+    box-shadow: 0 10px 10px 0 rgba(126, 125, 125, 0.24), 0 10px 40px 0 rgba(119, 119, 119, 0.19);;
+    padding: .5rem 3rem .5rem 3rem;
+    border-radius: 2rem;
+    margin-right: 3em;
+}
+nav img{
+    margin-left: 3em;
+}
+.hero-body{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+.hero-body img{
+    width: 48%;
+    padding-right: 2em;
+    padding-left: 1em;
+    height: 85%;
+    padding-bottom: .75em;
+}
+.hero-body-text{
+    padding-left: 3em;
+    width: 45%;
+    padding-top: 3em;
+}
+.hero-body-text button{
+    border: none;
+    background-color: var(--pink);
+    padding: 1rem 3.5rem 1rem 3.5rem;
+    border-radius: 1.5em;
+    color: white;
+    margin-top: 2em;
+}
+.hero-body-text h1{
+    margin-bottom: 1em;
+}
+.message-cards{
+    font-family: 'Open-Sans', sans-serif
+}
+/* GROW */
+.grow-card{
+    display: flex;
+    padding: 2em;
+    margin: 4em 3em 3em 3em;
+    box-shadow: 0 0 10px 5px rgb(236, 235, 235);
+    border-radius: 1em;
+}
+.grow-card img{
+    width: 20em;
+    height: 20.5em;
+    object-fit: contain;
+    padding-left: 4em;
+    margin-left: 2rem;
+}
+.grow-txt{
+    width: 50%;
+    margin-top: 7rem;
+    margin-left: 3rem;
+}
+.grow-txt p{
+    color: var(--grayish-blue);
+}
+/* FLOWING */
+.flowing-card{
+    display: flex;
+    padding: 2em;
+    margin: 4em 3em 3em 3em;
+    box-shadow: 0 0 10px 5px rgb(236, 235, 235);
+    border-radius: 1em;
+}
+.flowing-card img{
+    width: 20em;
+    height: 20.5em;
+    object-fit: contain;
+    padding-left: 4em;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.flow-txt{
+    width: 50%;
+    margin-top: 7rem;
+    margin-left: 3rem;
+}
+.flow-txt p{
+    color: var(--grayish-blue);
+}
+/*USERS*/
+.users-card{
+    display: flex;
+    padding: 2em;
+    margin: 4em 3em 3em 3em;
+    box-shadow: 0 0 10px 5px rgb(236, 235, 235);
+    border-radius: 1em;
+}
+.users-card img{
+    width: 20em;
+    height: 20.5em;
+    object-fit: contain;
+    padding-left: 4em;
+    margin-left: 2rem;
+}
+.user-txt{
+    width: 50%;
+    margin-top: 7rem;
+    margin-left: 3rem;
+}
+.user-txt p{
+    color: var(--grayish-blue);
+}
